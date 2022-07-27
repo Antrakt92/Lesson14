@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body {
+   font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+   margin: 0 auto;
+   max-width: 1440px;
+}
+.background-page1, .background-page2 {
+   padding: 0 14.27083%;
+}
+.background-page1 {
+   min-height: 308px;
+}
+.promice {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   background: url(../img/our-promice/OverlineMark.svg) no-repeat;
+   padding-left: 33px;
+}
+.promice__margin {
+   margin-bottom: 33px;
+}
+.bold {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+}
+.bold__margin {
+   margin-bottom: 68px;
+}
+
+
+
+.box-promice {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 20px;
+}
+.box-promice__content-box {
+   display: flex;
+   flex: 1 0 31.7647%;
+
+}
+.box-promice__content-box:not(:last-child) {
+   margin-right: 20px;
+}
+.box-promice__image {
+   margin-right: 23px;
+}
+.box-promice__text {
+   /*flex: 0 0 235px;*/
+   /*max-width: 235px;*/
+   flex: 0 1 235px;
+}
+.box-promice__text-big {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #F2726F;
+   margin-bottom: 20px;
+}
+.box-promice__text-small {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
+
+.box-promice__margin {
+   margin-bottom: 100px;
+}
+.background-page2 {
+   background-color: #2AB1AD;
+   min-height: 608px;
+   color: #FFFFFF;
+   padding-top: 112px;
+}
+.impact {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   background: url(../img/our-impact/Overline\ Mark.svg) no-repeat;
+   padding-left: 33px;
+}
+.impact__margin {
+margin-bottom: 31.77px;
+}
+.h2-p2 {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px; 
+   max-width: 411px;  
+}
+.h2-p2__margin {
+   margin-bottom: 75.87px;
+}
+.box-impact {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 20px;
+}
+.box-impact__container {
+   display: flex;
+}
+.box-impact__container:not(:last-child){
+   padding-right: 24px;
+}
+
+.box-impact__img {
+   margin-right: 11px;
+}
+.box-impact__text {
+   flex-wrap: wrap;
+}
+.box-impact__big-text {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   margin-top: 4px;
+   margin-bottom: 3px;
+}
+.box-impact__small-text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5D62B5;
+}
